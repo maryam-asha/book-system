@@ -1,6 +1,6 @@
 Simple Book Management System
 Project Idea
-This project aims to build a simple web system for managing books using the Laravel 12 framework. The system allows users (assumed to be system administrators) to add, edit, view, and delete (including soft delete, restore, and permanent delete) information related to books, authors, and categories.
+This project aims to build a simple web system for managing books using the Laravel 12 framework.
 
 
 Book
