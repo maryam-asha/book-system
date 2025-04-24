@@ -1,6 +1,31 @@
+Simple Book Management System
+Project Idea
+This project aims to build a simple web system for managing books using the Laravel 12 framework. The system allows users (assumed to be system administrators) to add, edit, view, and delete (including soft delete, restore, and permanent delete) information related to books, authors, and categories.
 
-كل كتاب له كاتب  وكل كاتب لديه اكثر من كتاب
-كل كتاب له فئة والفئة يتبع لها اكثر من كتاب 
+
+Book
+Attributes:
+id
+title
+pages
+price
+isbn
+publication_year
+Relationships
+author_id single author can have multiple books (One-to-Many with Book).
+catagory_id single category can have multiple books (One-to-Many with Book).
+
+Author
+Attributes:
+id
+name
+
+Category
+Attributes:
+id
+name
+
+
 
 Book                                Author             Category
 id                                  id                 id
